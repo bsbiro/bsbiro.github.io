@@ -1,5 +1,5 @@
 ---
 layout: blog
-title: notes
+title: exhibitions
 ---
 
