@@ -44,7 +44,6 @@ img {
 nav {
     ul {
         list-style: none;
-        margin: 0.25;
         text-align: center;
 
         li {
@@ -53,6 +52,7 @@ nav {
     }
     a {
         margin: 0.25rem;
+	padding: 0rem;
         text-transform: lowercase;
 	text-decoration: none;
     }
