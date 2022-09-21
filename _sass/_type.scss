@@ -25,13 +25,13 @@ a,a:visited {
   font-weight: bold;
 
   &:hover {
-    color: dodgerblue;
+    color: pink;
   }
 }
 
 a.active {
-    background: black;
-    padding: 0.5rem;
+    background: pink;
+    padding: 0rem;
     color: white;
     font-weight: bold;
 }
