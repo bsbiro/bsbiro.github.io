@@ -1,15 +1,15 @@
 ---
 layout: page
-title: about
+title: contact
 ---
 
-## soma - innovation design engineer 
+## conact details
 
-hello! my name is <strong>soma</strong>. welcome to my website.
+feel free to contact me.
 
-### bio
+### links
 
-- ma/msc innovation design engineering (ICL&RCA)
-- bsc biological sciences (ICL)
-- milestone institute
-- fazekas mihaly grammar school
+- linkedin
+- behance
+- instagram
+- github
