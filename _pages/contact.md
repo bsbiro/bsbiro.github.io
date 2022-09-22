@@ -11,5 +11,5 @@ feel free to contact me.
 
 - linkedin
 - behance
-- instagram
+- <a href="{{ https://www.instagram.com/b.s.biro/ }}/">instagram</a>
 - github
