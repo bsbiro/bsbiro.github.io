@@ -9,7 +9,7 @@ feel free to contact me.
 
 ### links
 
-- linkedin
-- behance
-- <a href="https://www.instagram.com/b.s.biro/" style="text-decoration:none" >instagram</a>
-- github
+- <a href="https://uk.linkedin.com/in/bsbiro" style="text-decoration:none" >linkedin</a>
+- <a href="https://www.behance.net/bsbiro" style="text-decoration:none" >behance</a>
+- <a href="https://www.instagram.com/b.s.biro" style="text-decoration:none" >instagram</a>
+- <a href="https://github.com/bsbiro" style="text-decoration:none" >github</a>
