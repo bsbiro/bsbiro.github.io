@@ -16,7 +16,7 @@ strong, b, h1, h2, h3, h4 {
 }
 
 hr {
-    background: black;
+    background: dimgrey;
     border: 0;
     height: 1px;
     margin: 2rem 0;
@@ -56,6 +56,7 @@ nav {
 	padding: 0rem;
         text-transform: lowercase;
 	text-decoration: none;
+	color: dimgrey;
     }
 }
 
