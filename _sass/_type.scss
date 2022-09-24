@@ -22,7 +22,7 @@ header p strong {
 }
 
 a,a:visited {
-  color: dimgrey;
+  color: #383838;
   font-weight: bold;
 
   &:hover {
@@ -34,7 +34,7 @@ a.active {
     background: pink;
     margin: 0.25rem;
     padding: 0.25rem;
-    color: oldlace;
+    color: floralwhite;
 }
 
 blockquote {
@@ -70,8 +70,8 @@ code, pre {
 }
 
 pre {
-  background: black;
-  color: white;
+  background: #383838;
+  color: floralwhite;
   overflow: auto;
   padding: 1em;
   width: 100%;
