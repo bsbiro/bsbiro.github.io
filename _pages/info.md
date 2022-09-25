@@ -9,7 +9,7 @@ barna soma biro is an innovation design engineer coming from a biological backgr
 
 ### education
 
-– ma/msc innovation design engineering (ICL&RCA)
+- ma/msc innovation design engineering (ICL&RCA)
 - bsc biological sciences (ICL)
 - milestone institute
 - fazekas mihaly grammar school
@@ -23,7 +23,7 @@ barna soma biro is an innovation design engineer coming from a biological backgr
 
 ### exhibitions
 
-– Exhibition Road Festival 2022
-– Superform exhibition 2022
-– Exhibition Road Festival 2019
-– Grantham Art Prize 2018
+- Exhibition Road Festival 2022
+- Superform exhibition 2022
+- Exhibition Road Festival 2019
+- Grantham Art Prize 2018
