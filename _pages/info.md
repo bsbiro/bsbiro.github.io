@@ -3,20 +3,27 @@ layout: page
 title: info
 ---
 
-## soma - innovation design engineer 
+### introduction
 
-hello! my name is <strong>soma</strong>. welcome to my website.
+barna soma biro is an innovation design engineer coming from a biological background with a passion for sustainable solutions
 
-### bio
+### education
 
-- ma/msc innovation design engineering (ICL&RCA)
+– ma/msc innovation design engineering (ICL&RCA)
 - bsc biological sciences (ICL)
 - milestone institute
 - fazekas mihaly grammar school
 
-# title 1
-## title 2
-### title 3
-#### title 4
-##### title 5
-###### title 6
+### experiences
+
+* Organiser at Hungarian Linguistics Olympiad
+* Vertebrate evolution placement — Silwood Park
+* Environmental summer school — Tsinghua University
+* Environmental monitoring — Operation Wallacea
+
+### exhibitions
+
+– Exhibition Road Festival 2022
+– Superform exhibition 2022
+– Exhibition Road Festival 2019
+– Grantham Art Prize 2018
