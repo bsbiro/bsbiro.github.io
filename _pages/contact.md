@@ -3,9 +3,9 @@ layout: page
 title: contact
 ---
 
-## conact details
+### conact details
 
-feel free to contact me.
+feel free to <a href = "mailto: b.s.biro@network.rca.ac.uk">email</a> me.
 
 ### links
 
