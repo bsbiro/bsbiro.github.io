@@ -3,11 +3,11 @@ layout: page
 title: contact
 ---
 
-### conact details
+#### conact details
 
 feel free to <strong><a href = "mailto: b.s.biro@network.rca.ac.uk" style="text-decoration:none" >email</a></strong> me.
 
-### links
+#### links
 
 - <a href="https://uk.linkedin.com/in/bsbiro" style="text-decoration:none" >linkedin</a>
 - <a href="https://www.behance.net/bsbiro" style="text-decoration:none" >behance</a>
