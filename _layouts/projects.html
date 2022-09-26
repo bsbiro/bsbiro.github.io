@@ -4,9 +4,9 @@ layout: default
 
 {% for project in site.projects reversed %}
 <article role="article">
-  <h3><a href="{{ site.baseurl }}{{ project.url }}" style="text-decoration:none">
+  <h4><a href="{{ site.baseurl }}{{ project.url }}" style="text-decoration:none">
     {{ project.title }}
-  </a></h3>
+  </a></h4>
   <p>{{ project.summary }}</p>
     <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
 </article>
