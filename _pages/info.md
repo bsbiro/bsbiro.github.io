@@ -27,3 +27,7 @@ barna soma biro is an innovation design engineer coming from a biological backgr
 - Superform exhibition 2022
 - Exhibition Road Festival 2019
 - Grantham Art Prize 2018
+
+- <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
+    {{ post.title }}
+  </a>
