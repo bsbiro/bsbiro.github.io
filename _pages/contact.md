@@ -5,7 +5,7 @@ title: contact
 
 ### conact details
 
-feel free to <a href = "mailto: b.s.biro@network.rca.ac.uk">email</a> me.
+feel free to <a href = "mailto: b.s.biro@network.rca.ac.uk">email< style="text-decoration:none"/a> me.
 
 ### links
 
