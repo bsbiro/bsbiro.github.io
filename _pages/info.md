@@ -27,9 +27,4 @@ barna soma biro is an innovation design engineer coming from a biological backgr
 - Superform exhibition 2022
 - Exhibition Road Festival 2019
 - Grantham Art Prize 2018
-
-{% for post in site.posts %}
-- <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
-    {{ post.title }}
-  </a>
-{% endfor %}
+- <a href="https://bsbiro.github.io/2019/04/25/grantham-art-prize-2018" style="text-decoration:none" >Grantham Art Prize 2018</a>
