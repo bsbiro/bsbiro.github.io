@@ -3,26 +3,22 @@ layout: page
 title: info
 ---
 
-### introduction
-
+#### introduction
 barna soma biro is an innovation design engineer coming from a biological background with a passion for sustainable solutions
 
-### education
-
+#### education
 - ma/msc innovation design engineering (ICL&RCA)
 - bsc biological sciences (ICL)
 - milestone institute
 - fazekas mihaly grammar school
 
-### experiences
-
+#### experiences
 * Organiser at Hungarian Linguistics Olympiad
 * Vertebrate evolution placement — Silwood Park
 * Environmental summer school — Tsinghua University
 * Environmental monitoring — Operation Wallacea
 
-### exhibitions
-
+#### exhibitions
 - Exhibition Road Festival 2022
 - Superform exhibition 2022
 - Exhibition Road Festival 2019
