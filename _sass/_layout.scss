@@ -8,15 +8,17 @@ body {
     margin: 0 auto;
     max-width: 50rem;
     padding: 1rem;
-    color: #383838;
 }
 
-strong, b, h1, h2, h3, h4 {
+b, h1, h2, h3, h4 {
 	padding: 0.25rem;
         text-transform: lowercase;
 	background: #383838;
-    	color: snow;
-	
+    	color: snow;	
+}
+
+strong {
+	font-weight: bold;		
 }
 
 hr {
