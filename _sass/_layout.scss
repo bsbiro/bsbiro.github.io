@@ -12,8 +12,11 @@ body {
 }
 
 strong, b, h1, h2, h3, h4 {
-	font-weight: bold;
-	color: #383838;
+	padding: 0.25rem;
+        text-transform: lowercase;
+	background: #383838;
+    	color: snow;
+	
 }
 
 hr {
