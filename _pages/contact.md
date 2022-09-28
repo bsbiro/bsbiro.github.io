@@ -13,3 +13,5 @@ feel free to <strong><a href = "mailto: b.s.biro@network.rca.ac.uk" style="text-
 - <a href="https://www.behance.net/bsbiro" style="text-decoration:none" >behance</a>
 - <a href="https://www.instagram.com/b.s.biro" style="text-decoration:none" >instagram</a>
 - <a href="https://github.com/bsbiro" style="text-decoration:none" >github</a>
+
+#### introduction
