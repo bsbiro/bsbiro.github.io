@@ -3,7 +3,7 @@ layout: page
 title: info
 ---
 
-![barna soma biro](/headshot_circle.png)
+![barna soma biro](/headshot.png)
 
 #### introduction
 barna soma biro is an innovation design engineer coming from a biological background with a passion for sustainable solutions
