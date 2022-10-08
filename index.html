@@ -10,13 +10,13 @@
   }
 
   body {
-    background: black;
+    background: snow;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   canvas {
-    border: 1px solid white;
+    border: 1px solid #383838;
   }
   </style>
 </head>
@@ -61,7 +61,7 @@ function loop() {
   requestAnimationFrame(loop);
 
   // slow game loop to 15 fps instead of 60 (60/15 = 4)
-  if (++count < 4) {
+  if (++count < 8) {
     return;
   }
 
@@ -97,11 +97,11 @@ function loop() {
   }
 
   // draw apple
-  context.fillStyle = 'red';
+  context.fillStyle = 'pink';
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
   // draw snake one cell at a time
-  context.fillStyle = 'green';
+  context.fillStyle = '#383838';
   snake.cells.forEach(function(cell, index) {
 
     // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
