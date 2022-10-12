@@ -16,22 +16,22 @@
       {% include inline.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
+  
+    .game {
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        background: snow;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      canvas {
+        border: 1px solid #383838;
+      }
+    }
+  
   </style>
-  
-  .game {
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
-    body {
-      background: snow;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    canvas {
-      border: 1px solid #383838;
-    }
-  }
-  
 </head>
