@@ -6,4 +6,4 @@ summary: summary
 category: product design
 ---
 
-description of the tube chair.
+description
