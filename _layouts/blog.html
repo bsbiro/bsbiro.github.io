@@ -5,9 +5,9 @@ title: Notes
 
 {% for post in site.posts %}
 <article role="article">
-  <h4><a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
+  <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none; color:snow">
     {{ post.title }}
-  </a></h4>
+  </a>
   <p>{{ post.summary }}</p>
     <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
 </article>
