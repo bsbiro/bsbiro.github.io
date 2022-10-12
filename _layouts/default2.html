@@ -43,8 +43,11 @@ layout: compress
 </head>
 
   <body>
-    {% include masthead.html %}
-<canvas width="400" height="400" id="game"></canvas>
+<header role="banner">
+    {% include navigation.html %}
+</header>
+<hr>
+    <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
