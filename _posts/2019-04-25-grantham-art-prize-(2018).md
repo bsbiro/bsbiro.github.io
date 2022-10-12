@@ -1,6 +1,6 @@
 ---
 layout: post
-title: grantham art prize 2018
+title: grantham art prize (2018)
 description: the project titled we are you created in collaboration with rca student miyuki oka was first displayed at the grantham art prize exhibition in 2019
 ---
 
