@@ -4,11 +4,17 @@ layout: compress
 
 <!DOCTYPE html>
 <html lang="en">
+
   {% include head.html %}
-  <body>
-    {% include masthead.html %}
-      <head>
+<head>
+  <title>Basic Snake HTML Game</title>
   <meta charset="UTF-8">
+  <style>
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+
   body {
     background: snow;
     display: flex;
@@ -20,7 +26,9 @@ layout: compress
   }
   </style>
 </head>
-<body>
+
+  <body>
+    {% include masthead.html %}
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 var canvas = document.getElementById('game');
@@ -167,8 +175,6 @@ document.addEventListener('keydown', function(e) {
 // start the game
 requestAnimationFrame(loop);
 </script>
-</body>
-    <hr>
     {% include footer.html %}
   </body>
 </html>
