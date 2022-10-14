@@ -98,21 +98,21 @@ pre {
   opacity: 0.6;
 }
 
-    .game {
-      html, body {
-        height: 100%;
-        margin: 0;
-      }
-      body {
-        background: snow;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      }
-      canvas {
-        border: 1px solid #383838;
-      }
-    }
+.gamee {
+  html, body {
+    height: 100%;
+    margin: 0;
+  }
+  body {
+    background: snow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid #383838;
+  }
+}
 
 .content {
   padding: 1rem;
