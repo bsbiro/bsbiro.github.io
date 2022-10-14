@@ -109,7 +109,7 @@ function loop() {
       snake.maxCells++;
 
       // canvas is 400x400 which is 25x25 grids
-      apple.x = getRandomInt(0, 25) * grid;
+      apple.x = getRandomInt(0, 75) * grid;
       apple.y = getRandomInt(0, 25) * grid;
     }
 
@@ -118,14 +118,14 @@ function loop() {
 
       // snake occupies same space as a body part. reset game
       if (cell.x === snake.cells[i].x && cell.y === snake.cells[i].y) {
-        snake.x = 160;
+        snake.x = 480;
         snake.y = 160;
         snake.cells = [];
         snake.maxCells = 4;
         snake.dx = grid;
         snake.dy = 0;
 
-        apple.x = getRandomInt(0, 25) * grid;
+        apple.x = getRandomInt(0, 75) * grid;
         apple.y = getRandomInt(0, 25) * grid;
       }
     }
