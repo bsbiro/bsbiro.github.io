@@ -36,7 +36,7 @@ a,a:visited {
 
 a.project,a.project:visited {
   color: snow;
-  margin-top: 0.25;
+  margin-top: 1rem;
   padding:0.25rem;
   background: #383838;
 
@@ -99,12 +99,7 @@ pre {
 }
 
 .gamee {
-  html, body {
-    height: 100%;
-    margin: 0;
-  }
   body {
-    background: snow;
     display: flex;
     align-items: center;
     justify-content: center;
