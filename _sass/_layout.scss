@@ -55,14 +55,13 @@ hr {
 }
 
 iframe {
-    min-width: 100%; 
-    width: 100px;
-    *width: 100%;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
+  width: 1px;
+  min-width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
 }
 
 table {
