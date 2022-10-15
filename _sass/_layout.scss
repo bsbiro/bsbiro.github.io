@@ -34,6 +34,23 @@ strong {
 	font-weight: bold;		
 }
 
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #484848;
+  color: snow;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
 hr {
     background: #484848;
     border: 0;
