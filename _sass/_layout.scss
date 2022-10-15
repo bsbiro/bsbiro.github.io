@@ -34,11 +34,10 @@ strong {
 	font-weight: bold;		
 }
 
-/* Style all font awesome icons */
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 0.25rem;
+  font-size: 1rem;
+  width: 1rem;
   text-align: right;
   text-decoration: none;
   border-radius: 50%;
@@ -46,9 +45,8 @@ strong {
   color: snow;
 }
 
-/* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  background: pink;
 }
 
 hr {
