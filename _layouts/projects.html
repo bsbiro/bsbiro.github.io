@@ -7,8 +7,8 @@ layout: default
   <a class="project" href="{{ site.baseurl }}{{ project.url }}" style="text-decoration:none">
     {{ project.title }}
   </a>
-  <p>{{ project.summary }}</p>
+  <div style="margin-bottom:0.25rem"><p>{{ project.summary }}</p></div>
     <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
 </article>
-<div style="height: 1rem"></div>
+<div style="height:1rem"></div>
 {% endfor %}
