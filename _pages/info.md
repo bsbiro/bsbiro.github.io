@@ -24,5 +24,4 @@ barna soma biro is an innovation design engineer coming from a biological backgr
 {% for post in site.posts %}
 - <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none" >{{ post.title }}</a> {% endfor %}
 
-#### conact details
-feel free to <strong><a href = "mailto: b.s.biro@network.rca.ac.uk" style="text-decoration:none" >email</a></strong> me.
+<a class="project" href="mailto: b.s.biro@network.rca.ac.uk" style="text-decoration:none" >contact me</a>
