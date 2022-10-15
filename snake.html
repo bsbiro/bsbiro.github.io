@@ -194,18 +194,18 @@ function handleTouchMove(evt) {
                                                                          
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 && snake.dx === 0 ) {
-            snake.dx = grid;
+            snake.dx = -grid;
             snake.dy = 0; 
         } else if  ( snake.dx === 0 ) {
-            snake.dx = -grid;
+            snake.dx = grid;
             snake.dy = 0;
         }                       
     } else {
         if ( yDiff > 0  && snake.dy === 0 ) {
-            snake.dy = grid;
+            snake.dy = -grid;
             snake.dx = 0;
         } else if  ( snake.dy === 0 ) {
-            snake.dy = -grid;
+            snake.dy = grid;
             snake.dx = 0;
         }                                                                 
     }
