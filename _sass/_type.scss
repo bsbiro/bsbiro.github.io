@@ -29,6 +29,8 @@ header p strong {
 
 a,a:visited {
   color: #484848;
+  display: inline;
+  line-height: 1em;
 
   &:hover {
     color: pink;
@@ -41,7 +43,7 @@ a.project,a.project:visited {
   margin-bottom: 0.25rem;
   padding:0.25rem;
   background: #484848;
-  display: block;
+  display: inline;
   line-height: 1em;
 
   &:hover {
