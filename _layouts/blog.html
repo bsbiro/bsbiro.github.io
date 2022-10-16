@@ -8,8 +8,9 @@ title: Notes
   <a class="project" href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none">
     {{ post.title }}
   </a>
-  <p>{{ post.summary }}</p>
-    <time style="margin-bottom:0; margin-top:0.25rem" class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+  
+  <div style="margin-bottom:0; margin-top:0.25rem">{{ post.summary }}</div>
+      <time style="margin-bottom:0; margin-top:0.25rem" class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
 </article>
 <div style="height: 1rem"></div>
 {% endfor %}
