@@ -47,6 +47,14 @@
   background-color: pink;
 }
     
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+    
   </style>
 </head>
 <body>
@@ -57,7 +65,10 @@
  
   </div>
   
-<button onclick="myFunction(); style.display='none'">start</button>
+<div class="vertical-center">
+  <button onclick="myFunction(); style.display='none'">start</button>
+</div>
+  
 <script>
 function myFunction() {
 
