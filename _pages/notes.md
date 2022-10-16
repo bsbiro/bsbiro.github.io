@@ -1,5 +1,5 @@
 ---
-layout: blog
-title: notes
+layout: 404
+title: snake
 ---
 
