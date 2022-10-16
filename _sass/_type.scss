@@ -41,7 +41,7 @@ a.project,a.project:visited {
   margin-bottom: 0.25rem;
   padding:0.25rem;
   background: #484848;
-  display: inline-block;
+  display: inline;
 
   &:hover {
     color: snow;
@@ -55,7 +55,7 @@ a.welcome,a.welcome:visited {
   color: snow;
   padding:0.25rem;
   background: #484848;
-  display: inline;
+  display: inline-block;
   text-align: center;
 
   &:hover {
