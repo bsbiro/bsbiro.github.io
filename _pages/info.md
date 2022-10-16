@@ -20,7 +20,7 @@ barna soma biro is a london-based innovation design engineer coming from a biolo
 * Environmental summer school — Tsinghua University
 * Environmental monitoring — Operation Wallacea
 
-<a class="project" href="exhibitions" style="text-decoration:none"></a>
+<a class="project" href="exhibitions" style="text-decoration:none">exhibitions</a>
 {% for post in site.posts %}
 - <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none" >{{ post.title }}</a> {% endfor %}
 
