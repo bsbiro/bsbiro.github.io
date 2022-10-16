@@ -41,7 +41,11 @@
  
   </div>
   
-  <script>
+<button onclick="myFunction()">start</button>
+<p id="game"></p>
+<script>
+function myFunction() {
+
 var canvas = document.getElementById('game');
 var context = canvas.getContext('2d');
 
@@ -235,6 +239,9 @@ function handleTouchMove(evt) {
   
 // start the game
 requestAnimationFrame(loop);
+  
+}
+  
 </script>
 </body>
 </html>
