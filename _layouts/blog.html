@@ -9,7 +9,7 @@ title: Notes
     {{ post.title }}
   </a>
   <p>{{ post.summary }}</p>
-    <time class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
+    <time style="margin-bottom:0; margin-top:0.25rem" class="date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %-d, %Y" }}</time>
 </article>
 <div style="height: 1rem"></div>
 {% endfor %}
