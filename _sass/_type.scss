@@ -41,14 +41,14 @@ a.project,a.project:visited {
   color: snow;
   margin-top: 1rem;
   margin-bottom: 0.25rem;
-  padding:0.25rem;
+  padding:0rem 0.25rem 0rem 0.25rem;
   background: #484848;
   display: inline;
   line-height: 1em;
 
   &:hover {
     color: snow;
-    padding:0.25rem;
+    padding:0rem 0.25rem 0rem 0.25rem;
     background: pink;
   }
 }
@@ -56,13 +56,13 @@ a.project,a.project:visited {
 a.welcome,a.welcome:visited {
   font-size: 300%;
   color: snow;
-  padding:0.25rem;
+  padding:0rem 0.25rem 0rem 0.25rem;
   background: #484848;
   display: inline-block;
   text-align: center;
 
   &:hover {
-    padding:0.25rem;
+    padding:0rem 0.25rem 0rem 0.25rem;
     background: pink;
   }
 }
@@ -70,7 +70,7 @@ a.welcome,a.welcome:visited {
 a.active {
     background: pink;
     margin: 0.25rem;
-    padding: 0.25rem;
+    padding: 0rem 0.25rem 0rem 0.25rem;
     color: snow;
 }
 
