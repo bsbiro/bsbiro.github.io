@@ -15,6 +15,21 @@ body {
 
 }
 
+.button {
+  border: none;
+  color: #484848;
+  padding: 0rem 0.25rem 0rem 0.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: normal;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button:hover {
+  color: pink;
+
 .dark-mode {
   background-color: #484848;
   color: snow;
@@ -56,11 +71,6 @@ a.project,a.project:visited {
     padding:0rem 0.25rem 0rem 0.25rem;
     background: pink;
   }
-}
-
-a.project.dark-mode {
-  background: snow;
-  color: #484848;
 }
 
 a.welcome,a.welcome:visited {
