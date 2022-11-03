@@ -1,9 +1,22 @@
 <nav role="navigation">
   <ul>
-    <!-- <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a></li> -->
-    <li><a href="/work" {% if page.url == "/work" %}class="active"{% endif %}>work</a></li>
-    <li><a href="/info" {% if page.url == "/info" %}class="active"{% endif %}>info</a></li>
-    <!-- <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>contact</a></li> -->
-    <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
+    <div style="text-align:left">
+      <!-- <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a></li> -->
+      <li><a href="/work" {% if page.url == "/work" %}class="active"{% endif %}>work</a></li>
+      <li><a href="/info" {% if page.url == "/info" %}class="active"{% endif %}>info</a></li>
+      <!-- <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>contact</a></li> -->
+      <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
+    </div>
+    <div style="text-align:right">    
+      <button onclick="myFunction()" style.display='none'" style="font-weight:normal" >•</button>
+    </div>
   </ul>
+      
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+  
 </nav>
