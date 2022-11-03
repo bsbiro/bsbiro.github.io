@@ -31,6 +31,11 @@ header p strong {
     font-weight: bold;
 }
 
+body.dark-mode .post-title {
+  color: #484848;
+  background: snow;
+}
+
 a,a:visited {
   color: #484848;
   display: inline;
@@ -39,6 +44,11 @@ a,a:visited {
   &:hover {
     color: pink;
   }
+}
+
+body.dark-mode a,a:visited {
+  color: snow;
+  background: #484848;
 }
 
 a.project,a.project:visited {
@@ -54,6 +64,15 @@ a.project,a.project:visited {
     color: snow;
     padding:0rem 0.25rem 0rem 0.25rem;
     background: pink;
+  }
+}
+
+body.dark-mode a.project,a.project:visited {
+  color: #484848;
+  background: snow;
+
+  &:hover {
+    color: #484848;
   }
 }
 
@@ -76,6 +95,10 @@ a.active {
     margin: 0.25rem;
     padding: 0rem 0.25rem 0rem 0.25rem;
     color: snow;
+}
+
+body.dark-mode a.active {
+    color: #484848;
 }
 
 blockquote {
