@@ -92,6 +92,21 @@ nav {
 	text-decoration: none;
 	color: #484848;
     }
+    .button {
+	  border: none;
+	  color: #484848;
+	  padding: 0rem 0.25rem 0rem 0.25rem;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 1rem;
+	  font-weight: bold;
+	  transition-duration: 0.4s;
+	  cursor: pointer;
+	}
+    .button:hover {
+	  color: pink;
+	}
 }
 
 footer {
