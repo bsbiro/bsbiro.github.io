@@ -30,6 +30,11 @@ b, h1, h2, h3, h4 {
 	display: inline;
 }
 
+body.dark-mode b, h1, h2, h3, h4 {
+  color: #484848;
+  background: snow;
+}
+
 strong {
 	font-weight: bold;		
 }
@@ -110,6 +115,16 @@ nav {
 	}
     .button:hover {
 	  color: pink;
+	}
+}
+
+body.dark-mode nav {
+  a {
+	color: snow;
+    }
+    .button {
+	  color: snow;
+	  background-color: #484848;
 	}
 }
 
