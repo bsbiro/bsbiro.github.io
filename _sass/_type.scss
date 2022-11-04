@@ -32,8 +32,11 @@ header p strong {
 }
 
 body.dark-mode .post-title {
-  color: #484848;
-  background: snow;
+    background: snow;
+    margin: 10rem 0;
+    color: #484848;
+    padding: 2rem;
+    font-weight: bold;
 }
 
 a,a:visited {
@@ -69,10 +72,17 @@ a.project,a.project:visited {
 
 body.dark-mode a.project,a.project:visited {
   color: #484848;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  padding:0rem 0.25rem 0rem 0.25rem;
   background: snow;
+  display: inline;
+  line-height: 1em;
 
   &:hover {
     color: #484848;
+    padding:0rem 0.25rem 0rem 0.25rem;
+    background: pink;
   }
 }
 
@@ -98,6 +108,9 @@ a.active {
 }
 
 body.dark-mode a.active {
+    background: pink;
+    margin: 0.25rem;
+    padding: 0rem 0.25rem 0rem 0.25rem;
     color: #484848;
 }
 
@@ -163,7 +176,8 @@ pre {
   border: 1px solid #484848;
 }
 body.dark-mode .content {
-    border: 1px solid snow;
+  padding: 1rem;
+  border: 1px solid snow;
 }
 
 .game-content {
