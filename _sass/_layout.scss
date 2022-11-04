@@ -31,8 +31,12 @@ b, h1, h2, h3, h4 {
 }
 
 body.dark-mode b, h1, h2, h3, h4 {
-  color: #484848;
-  background: snow;
+	font-weight: normal;
+	padding: 0rem 0.25rem 0rem 0.25rem;
+        text-transform: lowercase;
+	background: snow;
+    	color: #484848;
+	display: inline;
 }
 
 strong {
@@ -48,6 +52,18 @@ strong {
 }
 
 .fa:hover {
+  color: pink;
+}
+
+body.dark-mode .fa {
+  text-decoration: none;
+  margin-right: 0.25rem;
+  color: snow;
+  display: flex;
+  justify-content: space-between;
+}
+
+body.dark-mode .fa:hover {
   color: pink;
 }
 
@@ -75,7 +91,7 @@ table {
 
 img {
     width: 50%;
-    margin: 0.5rem 0;
+    margin: 0rem;
 }
 
 nav {
@@ -118,11 +134,37 @@ nav {
 }
 
 body.dark-mode nav {
-  a {
+    ul {
+        list-style: none;
+        text-align: left;
+	padding: 0;
+	margin: 0rem 1rem 1rem 1rem;
+
+        li {
+            display: inline-block;
+        }
+	li.right{
+    	  float: right;
+	}
+    }
+    a {
+        margin: 0.5rem;
+	padding: 0rem;
+        text-transform: lowercase;
+	text-decoration: none;
 	color: snow;
     }
     .button {
+	  border: none;
 	  color: snow;
+	  margin: -0.25rem 0rem 0rem 0rem;
+	  padding: 0rem 0rem 0rem 0rem;
+	  text-align: right;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 1.5rem;
+	  font-weight: bold;
+	  cursor: pointer;
 	  background-color: #484848;
 	}
     .button:hover {
