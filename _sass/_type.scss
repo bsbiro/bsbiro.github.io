@@ -15,8 +15,19 @@ body {
 }
 
 .dark-mode {
-  background-color: #484848;
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+  zoom: 1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  text-transform: lowercase;
+  background: #484848;
   color: snow;
+  padding: 0rem;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 header p strong {
@@ -31,14 +42,6 @@ header p strong {
     font-weight: bold;
 }
 
-body.dark-mode .post-title {
-    background: snow;
-    margin: 10rem 0;
-    color: #484848;
-    padding: 2rem;
-    font-weight: bold;
-}
-
 a,a:visited {
   color: #484848;
   display: inline;
@@ -47,11 +50,6 @@ a,a:visited {
   &:hover {
     color: pink;
   }
-}
-
-body.dark-mode a,a:visited {
-  color: snow;
-  background: #484848;
 }
 
 a.project,a.project:visited {
@@ -65,22 +63,6 @@ a.project,a.project:visited {
 
   &:hover {
     color: snow;
-    padding:0rem 0.25rem 0rem 0.25rem;
-    background: pink;
-  }
-}
-
-body.dark-mode a.project,a.project:visited {
-  color: #484848;
-  margin-top: 1rem;
-  margin-bottom: 0.25rem;
-  padding:0rem 0.25rem 0rem 0.25rem;
-  background: snow;
-  display: inline;
-  line-height: 1em;
-
-  &:hover {
-    color: #484848;
     padding:0rem 0.25rem 0rem 0.25rem;
     background: pink;
   }
@@ -105,13 +87,6 @@ a.active {
     margin: 0.25rem;
     padding: 0rem 0.25rem 0rem 0.25rem;
     color: snow;
-}
-
-body.dark-mode a.active {
-    background: pink;
-    margin: 0.25rem;
-    padding: 0rem 0.25rem 0rem 0.25rem;
-    color: #484848;
 }
 
 blockquote {
