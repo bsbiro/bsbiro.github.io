@@ -1,62 +1,3 @@
-// Using a local variable since stack overflow doesn't allow localstorage operations for security purposes.
-
-let storage = {darkMode: "disabled"}
-
-function userPreferesDarkMode() {
-  //return localStorage.getItem("darkMode") === "enabled";
-  return storage.darkMode === "enabled";
-}
-
-function setThemePreference(value) {
-  // localStorage.setItem("darkMode", value || "disabled");
-  storage.darkMode = value || "disabled";
-}
-
-const enableDarkMode = () => {
-  // 1. Add the class to the body
-  document.body.classList.add("dark");
-};
-
-const disableDarkMode = () => {
-  // 1. Remove the class from the body
-  document.body.classList.remove("dark");
-};
-
-
-function setTheme() {
-  // If the user already visited and enabled darkMode
-  // start things off with it on
-  if (userPreferesDarkMode()) {
-    enableDarkMode();
-  } else {
-    disableDarkMode();
-  }
-  const appDiv = document.getElementById("app");
-  appDiv.innerHTML = `<h1>Dark mode: ${userPreferesDarkMode()}</h1>`;
-}
-
-function bootstrap() {
-     const darkModeToggleButton = document.querySelector("#mode");
-darkModeToggleButton.addEventListener("click", () => {
-  if (userPreferesDarkMode()) {
-    setThemePreference("disabled");
-    disableDarkMode();
-  } else {
-    setThemePreference("enabled");
-    enableDarkMode();
-  }
-  const appDiv = document.getElementById("app");
-  appDiv.innerHTML = `<h1>Dark mode: ${userPreferesDarkMode()}</h1>`;
-});
-
-setTheme();
-}
-
- document.addEventListener("DOMContentLoaded", function(event) {
-     // Your code to run since DOM is loaded and ready
-     bootstrap()
-  });
-
 <nav role="navigation">
   <ul>
       <!-- <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>home</a></li> -->
@@ -64,10 +5,7 @@ setTheme();
       <li><a href="/info" {% if page.url == "/info" %}class="active"{% endif %}>info</a></li>
       <!-- <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>contact</a></li> -->
       <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
-      <!-- <li class="right"> <button class="button" onclick="myFunction()" style.display='none'" style="font-weight:bold" >•</button> </li> -->
-        
-      <li class="right"> <button id="mode" class="button" style.display='none'" style="font-weight:bold" >•</button>  
-        
+      <li class="right"> <button class="button" onclick="myFunction()" style.display='none'" style="font-weight:bold" >•</button> </li>    
   </ul>
       
 <script>
