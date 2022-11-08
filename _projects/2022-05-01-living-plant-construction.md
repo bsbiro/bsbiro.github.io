@@ -6,4 +6,6 @@ summary: a connector unit for constructing spaces out of living plants using gra
 category: individual
 ---
 
+![connector](/connector.png)
+
 description
