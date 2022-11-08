@@ -112,6 +112,13 @@ nav {
 	}
 }
 
+body.dark-mode nav {
+  .button {
+    color: snow;
+    background-color: #484848;
+  }
+}
+
 footer {
   margin: 1rem 0;
   display: flex;
