@@ -41,6 +41,10 @@ a,a:visited {
   }
 }
 
+body.dark-mode a,a:visited {
+    color: snow;
+}
+
 a.project,a.project:visited {
   color: snow;
   margin-top: 1rem;
