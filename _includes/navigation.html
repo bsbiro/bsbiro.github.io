@@ -5,14 +5,39 @@
       <li><a href="/info" {% if page.url == "/info" %}class="active"{% endif %}>info</a></li>
       <!-- <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>contact</a></li> -->
       <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
-      <li class="right"> <button class="button" onclick="myFunction()" style.display='none'" style="font-weight:bold" >•</button> </li>    
+      <li class="right"> <button class="button" onclick="togglePageContentLightDark()" style.display='none'" style="font-weight:bold" >•</button> </li>    
   </ul>
       
 <script>
-function myFunction() {
-   var element = document.body;
-   element.classList.toggle("dark-mode");
+    
+  function togglePageContentLightDark() {
+  var body = document.getElementById('body')
+  var currentClass = body.className
+  var newClass = body.className == 'dark-mode' ? '' : 'dark-mode'
+  body.className = newClass
+  // Save the theme preference for 10 years.
+  var endDate = new Date();
+  endDate.setFullYear(endDate.getFullYear() + 10);
+  document.cookie = 'theme=' + (newClass == '' ? '' : 'dark') +
+                    '; Expires=' + endDate + ';'
+  console.log('Cookies are now: ' + document.cookie)
+}      
+  function isDarkThemeSelected() {
+  return document.cookie.match(/theme=dark/i) != null
 }
+  function setThemeFromCookie() {
+  var body = document.getElementById('body')
+  body.className = isDarkThemeSelected() ? 'dark-mode' : ''
+}
+  (function() {
+  setThemeFromCookie()
+})();
+        
+<!-- function myFunction() { -->
+   <!-- var element = document.body; -->
+   <!-- element.classList.toggle("dark-mode"); -->
+<!-- } -->
+        
 </script>
   
 </nav>
