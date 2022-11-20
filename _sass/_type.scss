@@ -61,6 +61,11 @@ a.project,a.project:visited {
   }
 }
 
+body.dark-mode a.project {
+    color: #484848;
+    background: snow;
+}
+
 a.welcome,a.welcome:visited {
   font-size: 300%;
   color: snow;
