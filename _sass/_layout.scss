@@ -30,6 +30,11 @@ b, h1, h2, h3, h4 {
 	display: inline;
 }
 
+body.dark-mode h4 {
+	background: snow;
+    	color: #484848;
+}
+
 strong {
 	font-weight: bold;		
 }
