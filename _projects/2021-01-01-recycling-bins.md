@@ -6,4 +6,6 @@ summary: recycling bins made of uniform containers and various lids for differen
 category: individual
 ---
 
+![recycling-bins](/bins 4.png)
+
 description
