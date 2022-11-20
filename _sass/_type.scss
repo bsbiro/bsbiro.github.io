@@ -64,6 +64,10 @@ a.project,a.project:visited {
 body.dark-mode a.project {
     color: #484848;
     background: snow;
+  &:hover {
+    color: #484848;
+    background: pink;
+  }
 }
 
 a.welcome,a.welcome:visited {
