@@ -7,7 +7,7 @@
       <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
       <!-- <li class="right"> <button class="button" onclick="myFunction()" style.display='none'" style="font-weight:bold" >•</button> </li> -->
       
-      <li class="right"> <button class="button" style.display='none'" style="font-weight:bold" >•</button> </li>
+      <li class="right"> <button class="btn-toggle">Toggle Dark-Mode</button> </li>
       
   </ul>
       
@@ -18,7 +18,7 @@
       // element.classList.toggle("dark-mode");
     // }
         
-    const btn = document.querySelector(".button");
+    const btn = document.querySelector(".btn-toggle");
 
     btn.addEventListener("click", function () {
       document.body.classList.toggle("dark-mode");
