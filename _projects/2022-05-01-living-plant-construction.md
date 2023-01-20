@@ -7,5 +7,3 @@ image: connector nbg.png
 hover: connector 4.png
 category: individual
 ---
-
-![connector](/connector 4.png)
