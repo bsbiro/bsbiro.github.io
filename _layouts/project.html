@@ -7,5 +7,6 @@ layout: default
   <h4>{{ page.title }}</h4>
   <div style="height: 0.25rem"></div>
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
-  <p {{ page.description }} ></p>
+  <br>
+  {{ page.description }}
 </article>
