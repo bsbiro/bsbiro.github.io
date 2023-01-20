@@ -6,27 +6,14 @@
       <!-- <li><a href="/contact" {% if page.url == "/contact" %}class="active"{% endif %}>contact</a></li> -->
       <li><a href="/snake" {% if page.url == "/snake" %}class="active"{% endif %}>snake</a></li>
       <li class="right"> <button class="button" onclick="myFunction()" style.display='none'" style="font-weight:bold" >•</button> </li>
-        
-      <li class="right">   <button class="btn-toggle">Toggle Dark Mode</button> </li>
-
   </ul>
       
   <script>
         
-    // function myFunction() {
-      // var element = document.body;
-      // element.classList.toggle("dark-mode");
-    // }
-            
-// Select the button
-const btn = document.querySelector('.btn-toggle');
-
-// Listen for a click on the button
-btn.addEventListener('click', function() {
-  // Then toggle (add/remove) the .dark-theme class to the body
+    function myFunction() {
       var element = document.body;
       element.classList.toggle("dark-mode");
-})  
+    } 
         
   </script>
   
