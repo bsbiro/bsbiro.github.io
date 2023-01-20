@@ -3,9 +3,7 @@ layout: page
 title: info
 ---
 
-<div class="right">
-![barna soma biro](/headshot.png)
-</div>
+<img align="right" src="headshot.png">
 
 #### introduction
 barna soma biro is a london-based innovation design engineer coming from a biological background with a passion for sustainable solutions
