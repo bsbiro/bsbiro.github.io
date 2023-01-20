@@ -3,9 +3,7 @@ layout: page
 title: info
 ---
 
-<img style="float: right" src="../headshot.png"/>
-
-<div style="clear: right"
+<img align="right" src="../headshot.png"/>
 
 #### introduction
 barna soma biro is a london-based innovation design engineer coming from a biological background with a passion for sustainable solutions
@@ -28,5 +26,3 @@ barna soma biro is a london-based innovation design engineer coming from a biolo
 - <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration:none" >{{ post.title }}</a> {% endfor %}
 
 <a class="project" href="mailto: b.s.biro@network.rca.ac.uk" style="text-decoration:none" >contact me</a>
-
-</div>
