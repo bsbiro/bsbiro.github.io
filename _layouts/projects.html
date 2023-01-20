@@ -4,7 +4,7 @@ layout: default
 
 {% for project in site.projects reversed %}
 <article role="article">
-  <a href="{{ site.baseurl }}{{ project.url }}"><img src="../{{ project.image }}" style="width:25%;">
+  <a href="{{ site.baseurl }}{{ project.url }}"><img src="../{{ project.image }}" style="width:25%;" onmouseover="this.src='../{{ project.hover }}'" onmouseout="this.src='../{{ project.image }}'"/>
   </a>
   <a class="project" href="{{ site.baseurl }}{{ project.url }}" style="text-decoration:none">
     {{ project.title }}
