@@ -7,5 +7,3 @@ image: bins nbg.png
 hover: bins 4.png
 category: individual
 ---
-
-![recycling-bins](/bins 4.png)
