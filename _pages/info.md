@@ -3,7 +3,7 @@ layout: page
 title: info
 ---
 
-#### introduction <img align="right" src="../headshot.png"/>
+#### introduction <img align="right" src="../headshot.png"/ style="width: 75%;">
 barna soma biro is a london-based innovation design engineer coming from a biological background with a passion for sustainable solutions
 
 #### education
