@@ -137,9 +137,8 @@ footer {
 }
 
 .slideshow-container {
-  max-width: 1000px;
   position: relative;
-  margin: auto;
+  margin: 1rem 1rem;
 }
 
 .mySlides {
@@ -170,7 +169,7 @@ footer {
 .dot {
   cursor: pointer;
   display: inline-block;
-  font-size: 1rem;
+  font-size: 2rem;
   color: #484848;
 }
 
