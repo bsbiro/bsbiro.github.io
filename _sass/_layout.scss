@@ -171,12 +171,7 @@ footer {
 
 .dot {
   cursor: pointer;
-  height: 1rem;
-  width: 1rem;
-  margin: 0 2px;
-  background-color: #484848;
-  border-radius: 50%;
-  display: inline-block;
+  color: #484848;
 }
 
 .active, .dot:hover {
