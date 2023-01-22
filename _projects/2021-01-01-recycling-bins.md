@@ -11,7 +11,7 @@ category: individual
 <div class="slideshow-container">
 
   <div class="mySlides fade">
-    <img src="../bin1.jpg" style="width:100%">
+    <img src="../bin1.png" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
