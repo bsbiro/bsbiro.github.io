@@ -11,7 +11,7 @@
   }
 
   body {
-    background: snow;
+    background: #484848;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -24,7 +24,7 @@
     height: auto;
   }
   .container {
-    border: 1px solid #484848;
+    border: none;
     max-width: 402px;
     max-height: 402px;
     width: 100%;
@@ -33,7 +33,7 @@
      
 .button {
   border: none;
-  color: snow;
+  color: #484848;
   padding: 0rem 0.25rem 0rem 0.25rem;
   text-align: center;
   text-decoration: none;
@@ -41,7 +41,7 @@
   font-size: 1rem;
   font-weight: normal;
   cursor: pointer;
-  background-color: #484848;
+  background-color: snow;
 }
 .button:hover {
   background-color: pink;
@@ -150,7 +150,7 @@ function loop() {
   context.fillRect(apple.x, apple.y, grid-1, grid-1);
 
   // draw snake one cell at a time
-  context.fillStyle = '#484848';
+  context.fillStyle = 'snow';
   snake.cells.forEach(function(cell, index) {
 
     // drawing 1 px smaller than the grid creates a grid effect in the snake body so you can see how long it is
