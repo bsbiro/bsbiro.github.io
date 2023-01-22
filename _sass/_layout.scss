@@ -180,3 +180,9 @@ footer {
 .right {
 text-align: right;
 }
+
+iframe {
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
+}
