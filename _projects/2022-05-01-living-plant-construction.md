@@ -4,6 +4,6 @@ title: living plant construction
 description: a connector unit for constructing spaces out of living plants using grafting
 summary: a connector unit for constructing spaces out of living plants using grafting
 image: pt.png
-hover: connector 2.2.png
+hover: connector 5.png
 category: individual
 ---
