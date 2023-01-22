@@ -40,7 +40,6 @@
   display: inline-block;
   font-size: 1rem;
   font-weight: normal;
-  transition-duration: 0.4s;
   cursor: pointer;
   background-color: #484848;
 }
@@ -55,11 +54,18 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+      
+#area {
+  width: 1px;
+  min-width: 100%;
+  *width: 100%;
+}
     
   </style>
 </head>
 <body>
 
+  <div id="area">
   <div class="container">
   
     <canvas width="400" height="400" id="game"></canvas>  
@@ -69,6 +75,8 @@
 <div class="vertical-center">
   <button class="button" onclick="myFunction(); style.display='none'" style="font-weight:normal">start</button>
 </div>
+
+  </div>
   
 <script>
 function myFunction() {
