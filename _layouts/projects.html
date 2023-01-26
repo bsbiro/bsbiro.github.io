@@ -8,7 +8,7 @@ layout: default
     {{ project.title }}
   </a>
   </-- <a href="{{ site.baseurl }}{{ project.url }}"><img src="../{{ project.image }}" style="float:left;width:10%;min-width:100px;" onmouseover="this.src='../{{ project.hover }}'" onmouseout="this.src='../{{ project.image }}'"/></a> -->
-  <a class="{{ project.title }}" href="{{ site.baseurl }}{{ project.url }}"></a>
+  <a class="{{ project.link }}" href="{{ site.baseurl }}{{ project.url }}"></a>
   <div style="margin-bottom:0; margin-top:0.25rem">{{ project.summary }}</div>
     <time class="date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y" }} &middot; {{ project.category }}</time>
 </article>
