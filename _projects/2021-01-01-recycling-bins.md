@@ -11,7 +11,13 @@ category: individual
 <div class="slideshow-container">
 
   <div class="mySlides fade">
-    <img src="../bin1.png" style="width:100%">
+    <img src="../bin1.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="../bin2.jpg" style="width:100%">
+  </div>
+  <div class="mySlides fade">
+    <img src="../bin3.jpg" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -19,6 +25,8 @@ category: individual
 </div>
 
 <div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)">•</span>
+  <span class="dot" onclick="currentSlide(1)">•</span>
   <span class="dot" onclick="currentSlide(1)">•</span>
 </div>
 
