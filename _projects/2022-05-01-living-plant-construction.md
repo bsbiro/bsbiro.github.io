@@ -5,6 +5,7 @@ description: a connector unit for constructing spaces out of living plants using
 summary: a connector unit for constructing spaces out of living plants using grafting
 image: pt.png
 hover: connector 5.png
+link: lpc
 category: individual
 ---
 
