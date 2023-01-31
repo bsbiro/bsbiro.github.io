@@ -5,6 +5,7 @@ description: recycling bins made of uniform containers and various lids for diff
 summary: recycling bins made of uniform containers and various lids for different types of litter
 image: pt.png
 hover: bins 2.2.png
+link: bin
 category: individual
 ---
 
