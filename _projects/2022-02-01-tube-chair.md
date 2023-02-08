@@ -12,15 +12,15 @@ category: individual
 <div class="slideshow-container">
 
   <div class="mySlides fade">
-    <img src="../tc2.jpg" style="width:100%">
+    <img src="../tc1.jpg" style="width:100%">
   </div>
 
   <div class="mySlides fade">
-    <img src="../tc3.jpg" style="width:100%">
+    <img src="../tc2.jpg" style="width:100%">
   </div>
   
   <div class="mySlides fade">
-    <img src="../tc4.jpg" style="width:100%">
+    <img src="../tc3.jpg" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
