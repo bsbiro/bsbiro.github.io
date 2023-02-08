@@ -258,3 +258,16 @@ text-align: right;
 .pt:hover {
    background-image: url('https://bsbiro.github.io/pt.png');
 }
+
+.tc {
+ width: 100px;
+ height: 100px;
+ display: block;
+ float: left;
+ background: url('https://bsbiro.github.io/pt.png') center center no-repeat;
+ background-size: contain;
+}
+
+.tc:hover {
+   background-image: url('https://bsbiro.github.io/tc.png');
+}
