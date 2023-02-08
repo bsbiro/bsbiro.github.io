@@ -1,8 +1,8 @@
 ---
 layout: project
 title: tube chair
-description: chair designed and completed in under a month
-summary: summary
+description: description coming soon
+summary: chair designed and completed in under a month
 image: pt.png
 hover: tc.png
 link: tc
