@@ -11,6 +11,8 @@ we are you is a collaboration between an artist and a scientist to create a piec
 
 <div class="slideshow-container">
 
+  <div class="mySlides fade">
     <img src="../exh1.jpg" style="width:100%">
-
+  </div>
+    
 </div>
