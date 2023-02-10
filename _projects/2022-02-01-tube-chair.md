@@ -6,7 +6,7 @@ summary: chair designed and completed in under a month
 image: pt.png
 hover: tc.png
 link: tc
-category: individual
+category: product design
 ---
 
 <div class="slideshow-container">
