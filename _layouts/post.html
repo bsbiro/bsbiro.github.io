@@ -10,6 +10,6 @@ layout: default
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
   <br>
   {{ page.description }}
-  <br>
-  <div>project:</div><a href="{{ site.baseurl }}{{ project.url }}" style="text-decoration:none" >{{ post.project }}</a>
+  <br><br>
+  <div>project:</div><a href="{{ site.baseurl }}{{ post.project.url }}" style="text-decoration:none" >{{ post.project }}</a>
 </article>
