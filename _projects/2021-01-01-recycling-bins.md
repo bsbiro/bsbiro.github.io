@@ -1,7 +1,11 @@
 ---
 layout: project
 title: recycling bins
-description: recycling bins made of uniform containers and various lids for different types of litter
+description:  >
+  recycling bins made of uniform containers and various lids for different types of litter
+  <br> <br> consultants: <a href="https://renatoarpas.wixsite.com/design" style="text-decoration:none" target="_blank" >renato arpas</a> &
+  <a href="https://lemezdesign.eu/" style="text-decoration:none" target="_blank" >tamas szollosi</a>
+  <br> <br> school: <a href="https://corvinrajziskola.hu/" style="text-decoration:none" target="_blank" >corvin art school</a>
 summary: recycling bins made of uniform containers and various lids for different types of litter
 image: pt.png
 hover: bins 2.2.png
