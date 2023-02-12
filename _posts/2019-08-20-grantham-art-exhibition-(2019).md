@@ -4,7 +4,8 @@ title: grantham art exhibition (2019)
 summary:
 project: we are you
 url2: https://bsbiro.github.io/projects/we-are-you
-description: the artwork we are you created together with miyuki oka for the grantham art prize in 2018 displayed at imperial college london
+description: >
+  the artwork we are you created together with miyuki oka for the grantham art prize in 2018 displayed at imperial college london<br>location: dyson gallery, royal college of art<br>dates: 20-30 august 2019
 ---
 
 <div class="slideshow-container">
