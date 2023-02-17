@@ -7,5 +7,5 @@ description: >
 ---
 
 <div class="slideshow-container">
-<img src="https://bsbiro.github.io/exh7.jpg">
+<img src="https://bsbiro.github.io/exh5.jpg">
 </div>
