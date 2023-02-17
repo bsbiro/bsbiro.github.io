@@ -2,9 +2,10 @@
 layout: project
 title: pulpatronics
 description: >
-  recyclable chipless carbon-based RFID tags made to preserve our world’s natural resources <br> <br> collaborators:
-  <a href="https://www.instagram.com/sooo.chlo/" style="text-decoration:none" target="_blank" >chloe so</a>,
-  <a href="https://www.instagram.com/chris_chen_jingyan/" style="text-decoration:none" target="_blank" >chris chen</a> &
+  recyclable chipless carbon-based RFID tags made to preserve our world’s natural resources <br> <br> read more
+  <a href="https://wip2023.rca.ac.uk/programmes/innovation-design-engineering-pulpatronics-ma" style="text-decoration:none" target="_blank" >here</a><br> <br> collaborators:
+  <a href="https://www.linkedin.com/in/chloe-so/" style="text-decoration:none" target="_blank" >chloe so</a>,
+  <a href="https://www.linkedin.com/in/jingyan-chen-8aa236206/" style="text-decoration:none" target="_blank" >chris chen</a> &
   <a href="https://www.instagram.com/a.smarthorse/" style="text-decoration:none" target="_blank" >rui ma</a>
 summary: recyclable chipless carbon-based RFID tags made to preserve our world’s natural resources
 image: pt.png
