@@ -1,11 +1,9 @@
 ---
 layout: post
 title: superform exhibition (2022)
-summary:
-project: tube chair
-url2: https://bsbiro.github.io/projects/tube-chair
+summary: summary
 description: >
-  the tube chair designed and built for the superform module on display at the royal college of art<br>location: courtyard gallery, royal college of art<br>dates: 4 march 2022
+  the tube chair designed and built for the superform module on display at the royal college of art<br>location: courtyard gallery, royal college of art<br>dates: 4 march 2022<br>project: <a href="https://bsbiro.github.io/projects/tube-chair" style="text-decoration:none" >tube chair</a>
 ---
 
 
