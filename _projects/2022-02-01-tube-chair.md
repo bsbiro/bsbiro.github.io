@@ -1,7 +1,8 @@
 ---
 layout: project
 title: tube chair
-description: chair designed and completed in under a month
+description: >
+  The tube chair was designed and built in under a month for the module Superform. The shape of the chair was inspired by modular piping systems used for building infrastructure. The tube chair is made of a single continuous metal tube frame covered in upholstery foam and wrapped in a latex sheet.
 summary: chair designed and completed in under a month
 image: pt.png
 hover: tc.png
