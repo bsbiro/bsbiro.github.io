@@ -2,7 +2,7 @@
 layout: project
 title: living plant construction
 description: >
-  This project is an exploration of using living plant material for constructing modular structures through connector units. The two main inspirations for the project are the concept of … developed by Yona Friedman and the architectural practice Baubotanik. The final outcome of the project is a set of connector units allowing for joining pieces of living plants through grafting.
+  This project is an exploration of using living plant material for constructing modular structures through connector units. The two main inspirations for the project are the concept of the common man developed by Yona Friedman and the architectural practice Baubotanik. The final outcome of the project is a set of connector units allowing for joining pieces of living plants through grafting.
 summary: a connector unit for constructing spaces out of living plants using grafting
 image: pt.png
 hover: connector 5.png
