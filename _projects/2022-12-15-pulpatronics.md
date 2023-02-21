@@ -2,11 +2,11 @@
 layout: project
 title: pulpatronics
 description: >
-  PulpaTronics is a technology developed in collaboration with Chloe So, Chris Chen and Rui Ma as a second year master project. PulpaTronics is a novel way of producing RFID tags by inducing a conductive material on the surface of paper in specific patterns. PulpaTronics tags are significantly cheaper and more sustainable than conventional tags.<br><br>read more:
-  <a href="https://wip2023.rca.ac.uk/programmes/innovation-design-engineering-pulpatronics-ma" style="text-decoration:none" target="_blank" >here</a><br> <br> collaborators:
-  <a href="https://www.linkedin.com/in/chloe-so/" style="text-decoration:none" target="_blank" >chloe so</a>,
-  <a href="https://www.linkedin.com/in/jingyan-chen-8aa236206/" style="text-decoration:none" target="_blank" >chris chen</a> &
-  <a href="https://www.instagram.com/a.smarthorse/" style="text-decoration:none" target="_blank" >rui ma</a>
+  PulpaTronics is a technology developed in collaboration with <a href="https://www.linkedin.com/in/chloe-so/" style="text-decoration:none" target="_blank" >chloe so</a>, <a href="https://www.linkedin.com/in/jingyan-chen-8aa236206/" style="text-decoration:none" target="_blank" >chris chen</a> and <a href="https://www.instagram.com/a.smarthorse/" style="text-decoration:none" target="_blank" >rui ma</a> as a second year master project. PulpaTronics is a novel way of producing RFID tags by inducing a conductive material on the surface of paper in specific patterns. PulpaTronics tags are significantly cheaper and more sustainable than conventional tags.<br><br>read more:
+  <a href="https://wip2023.rca.ac.uk/programmes/innovation-design-engineering-pulpatronics-ma" style="text-decoration:none" target="_blank" >here</a><br> <!-- <br> collaborators: -->
+  <!-- <a href="https://www.linkedin.com/in/chloe-so/" style="text-decoration:none" target="_blank" >chloe so</a>, -->
+  <!-- <a href="https://www.linkedin.com/in/jingyan-chen-8aa236206/" style="text-decoration:none" target="_blank" >chris chen</a> & -->
+  <!-- <a href="https://www.instagram.com/a.smarthorse/" style="text-decoration:none" target="_blank" >rui ma</a> -->
 summary: recyclable chipless carbon-based RFID tags made to preserve our world’s natural resources
 image: pt.png
 hover: pt.png
