@@ -1,6 +1,6 @@
 ---
 layout: post
-title: open studions online exhibition (2023)
+title: open studios online exhibition (2023)
 summary: rca work in progress online exhibition
 project: pulpatronics
 url2: https://bsbiro.github.io/projects/pulpatronics
