@@ -4,9 +4,7 @@ layout: default
 
 <article class="post" role="article">
   {{ content }}
-  <a class="prev2" href="{{ page.prev }}">&#10094;</a>
-  <h4>{{ page.title }}</h4>
-  <a class="next2" href="{{ page.next }}">&#10095;</a>
+  <a class="prev2" href="{{ page.prev }}">&#10094;</a><h4>{{ page.title }}</h4><a class="next2" href="{{ page.next }}">&#10095;</a>
   <div style="height: 0.25rem"></div>
   <time class="date" datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%Y" }} &middot; {{ page.category }}</time>
   <br><br>
