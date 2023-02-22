@@ -10,6 +10,8 @@ summary: recycling bins made of uniform containers and various lids for differen
 image: pt.png
 hover: bins 2.2.png
 link: bin
+prev: https://bsbiro.github.io/projects/we-are-you
+next: https://bsbiro.github.io/projects/amoeba
 category: product design
 ---
 
