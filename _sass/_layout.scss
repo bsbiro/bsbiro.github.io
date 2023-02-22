@@ -175,10 +175,12 @@ footer {
   font-weight: bold;
   font-size: 18px;
   user-select: none;
+  display: inline-block
 }
 
 .next3 {
   right: 0;
+  text-align: right;
 }
 
 .prev3:hover, .next3:hover {
