@@ -7,6 +7,8 @@ summary: a connector unit for constructing spaces out of living plants using gra
 image: pt.png
 hover: connector 5.png
 link: lpc
+prev: https://bsbiro.github.io/projects/tube-chair
+next: https://bsbiro.github.io/projects/pulpatronics
 category: product design
 ---
 
