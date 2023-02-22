@@ -11,8 +11,8 @@ summary: recyclable chipless carbon-based RFID tags made to preserve our worldâ€
 image: pt.png
 hover: pt.png
 link: pt
-prev: https://bsbiro.github.io/projects/living-plant-construction
-next: https://bsbiro.github.io/projects/figyelo-top200
+prev2: https://bsbiro.github.io/projects/living-plant-construction
+next2: https://bsbiro.github.io/projects/figyelo-top200
 category: technology
 ---
 
