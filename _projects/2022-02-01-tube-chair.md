@@ -7,6 +7,8 @@ summary: chair designed and completed in under a month
 image: pt.png
 hover: tc.png
 link: tc
+prev: https://bsbiro.github.io/projects/amoeba
+next: https://bsbiro.github.io/projects/living-plant-construction
 category: product design
 ---
 
