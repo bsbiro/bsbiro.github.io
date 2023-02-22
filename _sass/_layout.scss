@@ -168,6 +168,22 @@ footer {
   color: pink;
 }
 
+.prev2, .next2 {
+  cursor: pointer;
+  color: #484848;
+  font-weight: bold;
+  font-size: 18px;
+  user-select: none;
+}
+
+.next2 {
+  right: 0;
+}
+
+.prev2:hover, .next2:hover {
+  color: pink;
+}
+
 .dot {
   cursor: pointer;
   display: inline-block;
