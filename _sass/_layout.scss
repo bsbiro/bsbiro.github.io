@@ -172,11 +172,7 @@ footer {
 
 .dot {
   cursor: pointer;
-  position: absolute;
-  /* display: inline-block; */
-  top: 100%;
-  width: 100%;
-  text-align: center;
+  display: inline-block;
   font-weight: bold;
   font-size: 1.1rem;
 }
