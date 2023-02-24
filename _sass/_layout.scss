@@ -175,6 +175,8 @@ footer {
   display: inline-block;
   font-weight: bold;
   font-size: 1.1rem;
+  position: relative;
+  top: -2rem;
 }
 
 .active, .dot:hover {
