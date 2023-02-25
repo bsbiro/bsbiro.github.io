@@ -173,14 +173,16 @@ footer {
 .dot {
   cursor: pointer;
   display: inline-block;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 0.9rem;
   position: relative;
   top: -1.8rem;
+  opacity: 0.6;
 }
 
 .active, .dot:hover {
   color: pink;
+  opacity: 1;
 }
 
 .prev3, .next3 {
