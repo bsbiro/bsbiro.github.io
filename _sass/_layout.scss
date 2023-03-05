@@ -213,6 +213,13 @@ footer {
   margin-left: auto;
 }
 
+.app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .ft {
  width: 125px;
  height: 125px;
