@@ -220,6 +220,7 @@ footer {
  float: left;
  background: url('https://bsbiro.github.io/pt.png') center center no-repeat;
  background-size: contain;
+ transition: background-image 0.5s ease;
 }
 
 .ft:hover {
